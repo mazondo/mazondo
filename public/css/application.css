@@ -49,3 +49,35 @@ h1 {
 	background: #f1f1f1;
 	border: 1px solid #e8e8e8;
 }
+
+
+@media (max-width : 767px) {
+
+	.header {
+		padding:30px 15px;
+		margin:20px 0 0 0 ;	
+	}
+
+	h1 {
+		line-height:1.25em;
+		margin:20px 0;
+	}
+
+	.hover-image {
+		position:relative;
+	}
+
+	.hover-container:hover .hover-image {
+		bottom:0;
+	}
+
+	.hover-container {
+		margin:20px 0;
+	}
+
+	.project-description {
+		border: none;
+		background: transparent;
+	}
+
+}
